@@ -9,7 +9,6 @@
 #import "BSKeyboardControls.h"
 
 @interface BSKeyboardControls ()
-@property (nonatomic, strong) UIToolbar *toolbar;
 @property (nonatomic, strong) UISegmentedControl *segmentedControl;
 @property (nonatomic, strong) UIBarButtonItem *doneButton;
 @property (nonatomic, strong) UIBarButtonItem *segmentedControlItem;

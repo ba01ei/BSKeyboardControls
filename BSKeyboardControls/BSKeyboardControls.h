@@ -32,6 +32,11 @@ typedef enum
 @interface BSKeyboardControls : UIView
 
 /**
+ * The toolbar. Interfaced publicly so you can temporarily add this bar to somewhere else (e.g. on top of a picker view)
+ */
+@property (nonatomic, strong) UIToolbar *toolbar;
+
+/**
  *  Delegate to send callbacks to.
  */
 @property (nonatomic, weak) id <BSKeyboardControlsDelegate> delegate;
